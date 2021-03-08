@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?obooxq');
+  src:  url('fonts/icomoon.eot?obooxq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?obooxq') format('truetype'),
+    url('fonts/icomoon.woff?obooxq') format('woff'),
+    url('fonts/icomoon.svg?obooxq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-play_pause:before {
+  content: "\e924";
+}
+.icon-clock:before {
+  content: "\e91e";
+}
+.icon-play_backward:before {
+  content: "\e91f";
+}
+.icon-play_forward:before {
+  content: "\e920";
+}
+.icon-play_go:before {
+  content: "\e921";
+}
+.icon-settings:before {
+  content: "\e922";
+}
+.icon-speak:before {
+  content: "\e923";
+}
+.icon-download-remove:before {
+  content: "\e91d";
+}
+.icon-private-see:before {
+  content: "\e91c";
+}
+.icon-download:before {
+  content: "\e918";
+}
+.icon-move:before {
+  content: "\e919";
+}
+.icon-private:before {
+  content: "\e91a";
+}
+.icon-shelf:before {
+  content: "\e91b";
+}
+.icon-uniE917:before {
+  content: "\e917";
+}
+.icon-add:before {
+  content: "\e916";
+}
+.icon-cn:before {
+  content: "\e914";
+}
+.icon-en:before {
+  content: "\e915";
+}
+.icon-close:before {
+  content: "\e913";
+  color: #d6a272;
+}
+.icon-uniE912:before {
+  content: "\e912";
+}
+.icon-1:before {
+  content: "\e910";
+}
+.icon-uniE911:before {
+  content: "\e911";
+}
+.icon-book:before {
+  content: "\e90f";
+}
+.icon-search:before {
+  content: "\e900";
+}
+.icon-gengduo:before {
+  content: "\e901";
+}
+.icon-gengduo_1:before {
+  content: "\e902";
+}
+.icon-jindu:before {
+  content: "\e903";
+}
+.icon-jindu_1:before {
+  content: "\e904";
+}
+.icon-qicheqianlian-select:before {
+  content: "\e905";
+}
+.icon-schedule:before {
+  content: "\e906";
+}
+.icon-shucheng:before {
+  content: "\e907";
+}
+.icon-shu-copy:before {
+  content: "\e908";
+}
+.icon-taiyang:before {
+  content: "\e909";
+}
+.icon-zuo:before {
+  content: "\e90a";
+}
+.icon-A:before {
+  content: "\e90b";
+}
+.icon-zuo2:before {
+  content: "\e90c";
+}
+.icon-zuo1:before {
+  content: "\e90d";
+}
+.icon-uniE90D:before {
+  content: "\e90e";
+}

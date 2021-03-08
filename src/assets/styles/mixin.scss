@@ -1,0 +1,99 @@
+$animationTime: .2s;
+$animationType: linear;
+$ratio: 375 / 10;
+
+@function px2rem($px){
+	@return $px / $ratio + rem;
+}
+
+@mixin center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+@mixin right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+@mixin flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@mixin top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@mixin ellipsis2($line) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+@mixin columnLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+@mixin columnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin  leftBottom {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+@mixin  columnTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@mixin scroll {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;// 提高移动端性能
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.icon {
+  color: #666;
+  font-size: px2rem(16);
+}
+
+.title {
+  color: #666;
+  font-size: px2rem(16);
+  font-weight: bold;
+}
