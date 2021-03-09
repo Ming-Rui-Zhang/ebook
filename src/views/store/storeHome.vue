@@ -70,6 +70,7 @@
           const randomIndex = Math.floor(Math.random() * data.random.length)
           this.random = data.random[randomIndex]
           this.banner = data.banner
+          console.log(response.data)
           this.guessYouLike = data.guessYouLike
           this.recommend = data.recommend
           this.featured = data.featured
