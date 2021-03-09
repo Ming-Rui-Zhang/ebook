@@ -381,8 +381,6 @@
               color: #333;
             }
           }
-          #preview {
-          }
           .book-detail-content-item-wrapper {
             .book-detail-content-item {
               padding: px2rem(15) 0;
